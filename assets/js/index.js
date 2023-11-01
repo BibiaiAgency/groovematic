@@ -1,12 +1,12 @@
  // Cargar header
- fetch('/parts/header.html')
+ fetch('/parts/header')
  .then(response => response.text())
  .then(data => {
    document.querySelector('#header').innerHTML = data;
 });
 
  // Cargar footer
- fetch('/parts/footer.html')
+ fetch('/parts/footer')
  .then(response => response.text())
  .then(data => {
    document.querySelector('#footer').innerHTML = data;
