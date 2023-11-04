@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groove Matic - Play Now</title>
+    <title>Groove Matic</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/x-icon">
 
-    <script defer src="assets/js/index.js"></script>
+    <script defer src="/assets/js/index.js"></script>
 
     <meta property="og:title" content="Groove Matic">
     <meta property="og:description" content="Videogame designer and developer">
-    <meta property="og:image" content="/assets/img/og-image.svg">
+    <meta property="og:image" content="/assets/img/og-image.png">
     <meta property="og:url" content="https://groovematicgames.com/">
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -30,29 +30,18 @@
 
     gtag('config', 'G-5LSTEQXQ9Q');
     </script>
+
 </head>
 <body>
-    <main id="wrap">
 
-    <header id="header" class="header">
-    </header>
-
-    <section class="container-page-banner">
-        <h1 class="page-name">Play now</h1>
-    </section>
-
-    <section class="container-playnow">
-
-        <div class="block games-block">
-            <a href="/play-now/geometric-mirror/">
-                <img loading="lazy" src="/assets/img/games/geometricmirror1.svg" alt="">
-            </a>
-        </div>
-
-    </section>
-    <footer id="footer" class="footer">
-    </footer>
-
+    <main class="game-wrapp">
+        <a href="/play-now" class="btn sec-btn goback">Go back</a>
+        <section class="iframe-container">
+            <iframe class="game-iframe" src="/assets/games/geometric-mirror/" allowfullscreen>
+                <p>Tu navegador no soporta iframes.</p>
+            </iframe>
+        </section>
     </main>
+
 </body>
 </html>
