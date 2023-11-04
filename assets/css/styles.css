@@ -620,6 +620,7 @@ button {
 .container-playnow {
     display: grid;
     grid-template-columns: repeat(5, minmax(250px, 1fr));
+    gap: 1rem;
 }
 
 .container-playnow a img {
