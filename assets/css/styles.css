@@ -644,3 +644,7 @@ button {
     line-height: 0;
     border-radius: 5px;
 }
+
+.mark.deprecated {
+    background-color:#d35b5b;
+}
