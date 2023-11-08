@@ -619,21 +619,49 @@ button {
 
 .container-playnow {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
 
     overflow-x: auto;
     padding-bottom: 2rem;
+}
+
+.container-playnow .block.games-block {
+    display: flex;
+    gap: 1rem;
+
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+
+    transition: .3s;
+}
+
+.container-playnow .block.games-block:hover {
+    background: rgba(255, 255, 255, 0.479);
+}
+
+.container-playnow .block.games-block .games-block-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-playnow .block.games-block .games-block-content p {
+    margin:.5rem 0
+}
+
+.container-playnow .block.games-block .games-block-content .btn {
+    text-align: center;
 }
 
 .container-playnow a img {
     opacity: 1;
     transition: all .3s;
     margin-bottom:.5rem;
-}
+    border-radius: 5px;
 
-.container-playnow a img:hover {
-    opacity: .7;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mark {
